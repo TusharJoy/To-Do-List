@@ -1,8 +1,9 @@
 $(document).ready(function() {
 
-	 top.completed =0   ;
+	top.completed =0   ;
 	top.inCompleted =0 ;
 
+	if ($('#text').val() !==null){
 	$('#addList').click(function(event) {
 
 		var todo = $('#text').val() ;
@@ -62,6 +63,6 @@ $(document).ready(function() {
 
 	});
 
-
+}
 
 });
