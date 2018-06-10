@@ -4,6 +4,7 @@ $(document).ready(function() {
 	top.inCompleted =0 ;
 
 	if ($('#text').val() !==null){
+
 	$('#addList').click(function(event) {
 
 		var todo = $('#text').val() ;
@@ -64,5 +65,5 @@ $(document).ready(function() {
 	});
 
 }
-
+	
 });
